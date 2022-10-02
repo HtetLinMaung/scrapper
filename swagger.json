@@ -1,0 +1,53 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "OpenAPI 3.0",
+    "description": "",
+    "version": "1.0.11"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "tags": [
+    {
+      "name": "routes",
+      "description": "Everything about your Routes"
+    }
+  ],
+  "paths": {
+    "/scrapper/v1/scrap": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "getscrapper_v1_scrap"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "postscrapper_v1_scrap"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "putscrapper_v1_scrap"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchscrapper_v1_scrap"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deletescrapper_v1_scrap"
+      }
+    }
+  }
+}

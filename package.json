@@ -1,0 +1,27 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "starless-server start",
+    "dev": "nodemon node_modules/starless-server start",
+    "lint-init": "eslint --init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "nodemon": "^2.0.20",
+    "starless-server": "^1.8.6"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "code-alchemy": "^1.1.7",
+    "starless-async": "^1.0.0",
+    "starless-excel": "^0.0.2",
+    "starless-http": "^1.0.0",
+    "uuid": "^9.0.0"
+  }
+}
